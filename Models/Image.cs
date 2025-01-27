@@ -6,7 +6,6 @@ namespace ShirtStormCommon.Models
     {
         [Key]
         public Guid Id { get; set; }
-        [Required]
-        public byte[]? Bytes { get; set; }
+        public byte[] Bytes { get; set; } = [];
     }
 }
