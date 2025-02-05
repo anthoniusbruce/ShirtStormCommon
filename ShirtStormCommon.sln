@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtStormCommon", "ShirtStormCommon.csproj", "{38FFA949-2CF3-4028-B03C-D05795861D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtStormCommon.Tests", "..\ShirtStormCommon.Tests\ShirtStormCommon.Tests.csproj", "{F153FC5C-DFFE-4C06-A2C0-1C28801A818B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{38FFA949-2CF3-4028-B03C-D05795861D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FFA949-2CF3-4028-B03C-D05795861D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FFA949-2CF3-4028-B03C-D05795861D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F153FC5C-DFFE-4C06-A2C0-1C28801A818B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F153FC5C-DFFE-4C06-A2C0-1C28801A818B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F153FC5C-DFFE-4C06-A2C0-1C28801A818B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F153FC5C-DFFE-4C06-A2C0-1C28801A818B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
